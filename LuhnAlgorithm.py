@@ -1,18 +1,24 @@
 
 #accountnum = 79927398713
-n1 = int(input("Enter number 1: "))
-n2 = int(input("Enter number 1: "))
-n3 = int(input("Enter number 1: "))
-n4 = int(input("Enter number 1: "))
-n5 = int(input(""))
-n6 = int(input(""))
-n7 = int(input(""))
-n8 = int(input(""))
-n9 = int(input(""))
-n10 = int(input(""))
-n11 = int(input(""))
-
-
+user_number = (input("Enter a number: "))
+running_total = 0
+count = 0    
+odd = 0
+even = 0
+while account > 0:
+    digit = account %10
+    account = account // 10
+    counter = counter + 1
+    if count % 2 == 0:
+        digit2=digit*2
+        print (digit2)
+        print ()
+        if digit2>9:
+            while digit2>0:
+                tmp = digit2 % 10
+                print (tmp)
+                digit2=digit2 // 10
+                even = even + tmp
 
 
 
